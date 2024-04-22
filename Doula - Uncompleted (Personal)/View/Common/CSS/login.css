@@ -1,0 +1,115 @@
+body{
+	background-color:#ffffff;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	min-height:100px;
+	margin:0px;
+}
+.main{
+
+	display: flex;
+}
+.container{
+	
+	background-color:rgb(173, 221, 223);
+	border-radius:5px;
+	box-shadow: 0 2px 5px #070107;
+	height:500px;
+	max-width:100%;
+	overflow:hidden;
+	padding-bottom: 200px;
+	
+}
+
+.image{
+
+	margin-left: 100px;
+
+}
+.header{
+	background-color: rgb(40, 151, 162);
+	text-align:center;
+	padding:5px 20px;
+}
+.header h3{
+	color:#fafafa;
+	font-size: 25px;
+}
+.form{
+	padding:50px 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+.form-control{
+	margin-bottom:5px;
+	padding-bottom:5px;
+	position:relative;
+}
+.form-control label{
+	display:inline-block;
+}
+.form-control input{
+	border:2px solid black;
+	border-radius:5px;
+	display:block;
+	width:100%
+}
+.form-control i{
+	position:absolute;
+	top:30px;
+	right:10px;
+	visibility:hidden;
+}
+.form-control small{
+	position:absolute;
+	padding-top: 5px;
+	color:red;
+	left:0px;
+	visibility:hidden;
+}
+
+
+
+.form-control1{
+	margin-bottom:5px;
+	padding-bottom:30px;
+	position:relative;
+}
+.form-control1 label{
+	display:inline-block;
+}
+.form-control1 input{
+	border:2px solid black;
+	border-radius:5px;
+	display:block;
+	width: 350px;
+}
+.form-control1 i{
+	position:absolute;
+	top:30px;
+	right:10px;
+	visibility:hidden;
+}
+.form-control1 small{
+	position:absolute;
+	padding-top: 5px;
+	color:red;
+	left:0px;
+	visibility:hidden;
+}
+
+
+
+.form button{
+	background-color:rgb(233, 180, 200);
+	border-radius:4px;
+	border:2px solid #e995ad;
+	color:#fff;
+	width:100%;
+	font-size:20px;
+	padding: 5px;
+}
+
+
